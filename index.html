@@ -9,7 +9,7 @@
 <body>
     <div class="Ads_header">
         <div class="Header_title">Объявление</div>
-        <div class="Header_button">Добавить</div>
+        <div id="add" class="Header_button">Добавить</div>
     </div>
     <div class="Ads_content">
         <div class="Content_box">
@@ -23,5 +23,41 @@
         <div class="Box_name">Имя</div>
         <div class="Box_phone">88005553535</div> 
     </div>
+
+
+
+
+
+    <div id="modal" class="Modal_window" style="display: none;">
+        <div id="close" class="Modal_mask"></div>
+        <i></i>
+        <div class="Modal_form">
+            <div class="Form_title">Новое объявление</div>
+            <div class="Form_content">
+                <div class="Content_field">
+                    <label>Текст объявления</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="Content_field">
+                    <label>Имя</label>
+                    <input type="text">
+                </div>
+                <div class="Content_field">
+                    <label>Телефон</label>
+                    <input type="text">
+                </div>
+                <div class="Content_field">
+                    <button>Добавить</button>
+                </div>
+            </div>
+        </div>
+        <i></i>
+    </div>
+
+
+
+
+     <script src="jquery-3.5.1.min.js"></script>
+     <script src="script.js"></script>
 </body>
 </html>

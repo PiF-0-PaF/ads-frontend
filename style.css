@@ -34,3 +34,69 @@
 .Box_name{}
 
 .Box_phone{}
+
+.Modal_window{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    
+}
+
+.Modal_mask{
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.Modal_form{
+    padding: 24px;
+    border-radius: 12px;
+    background-color: white;
+    display: inline-block;
+    z-index: 2;
+}
+
+.Form_title{
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-size: 700;
+    margin-bottom: 24px;
+}
+
+.Form_content{}
+
+.Content_field{
+    font-family: 'Roboto', sans-serif;
+}
+
+.Content_field label{
+    font-size: 16px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.Content_field textarea{
+    display: block;
+    width: 227px;
+    padding: 12px 16px;
+
+}
+
+.Content_field button{
+    font-size: 16px;
+    font-weight: 700;
+    display: block;
+    padding: 12px 0;
+    width: 100%;
+}
